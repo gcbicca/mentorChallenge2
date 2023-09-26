@@ -1,0 +1,45 @@
+.main-dot__container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.main-dot {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--clr-dark-blue);
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+
+
+
+.main-dot:hover {
+    background-color: var(--clr-active);
+}
+
+.selected-dot {
+    background-color: var(--clr-orange);
+}
+
+.main-dot__star {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--clr-dark-blue);
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

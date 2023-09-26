@@ -1,0 +1,17 @@
+.main-title {
+    color: var(--clr-white);
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.main-p {
+    color: var(--clr-white);
+    text-align: left;
+    line-height: 24px;
+    font-size: 15px;
+
+}
+
+.main-p.-second {
+    text-align: center;
+}

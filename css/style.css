@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/***********************************/
+/* Variables 
+************************************/
+:root {
+
+    --ff-primary: Arial, Helvetica;
+    --clr-very-dark-blue: #131518;
+    --clr-dark-blue: #262E38;
+    --clr-orange: #FC7614;
+    --clr-black-gradient: linear-gradient(#232a34 100%, #181e27 100%);
+    --clr-white: #F5F5F5;
+    --clr-active: #7C8798;
+
+}
+/***********************************/
+/* General styles
+************************************/
+body {
+    background-color: var(--clr-very-dark-blue);
+    font-family: var(--ff-primary);
+}
+
+
+.main-section__containerHidden {
+    display: none;
+}
+

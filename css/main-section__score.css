@@ -1,0 +1,6 @@
+.main-section__score {
+    background-color: var(--clr-dark-blue);
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: var(--clr-orange);
+}

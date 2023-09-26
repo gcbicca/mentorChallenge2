@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+		integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+		crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main-section.css">
+    <link rel="stylesheet" href="css/main-section__container.css">
+    <link rel="stylesheet" href="css/main-dot__container.css">
+    <link rel="stylesheet" href="css/main.title.css">
+    <link rel="stylesheet" href="css/main-button.css">
+    <link rel="stylesheet" href="css/main-section__score.css">
+</head>
+<body>
+    <section class="main-section">
+        <div class="main-section__container">
+            <div class="main-dot__star">
+                <img src="assets/imgs/star-solid-24.png" alt="golden-star">
+            </div>
+            <h1 class="main-title">How did we do?</h1>
+            <p class="main-p">Please let us know how we did your support request. <br> All feedback is appreciated
+                to help us improve our offering!
+            </p>
+            <!-- <select name="" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select> -->
+            <div class="main-dot__container">
+                <div class="main-dot" onclick="selectBall(1)">1</div>
+                <div class="main-dot" onclick="selectBall(2)">2</div>
+                <div class="main-dot" onclick="selectBall(3)">3</div>
+                <div class="main-dot" onclick="selectBall(4)">4</div>
+                <div class="main-dot" onclick="selectBall(5)">5</div>
+            </div>
+            <input class="main-button" type="submit" value="submit" onclick="saveAndDisplay()">
+        </div>
+        <div class="main-section__containerHidden">
+            <img src="assets/imgs/comment-check-solid-204.png" alt="">
+            <div class="main-section__score">You selected <span id="result">0</span> out of 5</div>
+            <h1 class="main-title">Thank you!</h1>
+            <p class="main-p -second">We appreciate you taking the time to give a rating. <br>
+                If you ever need more support, don't hesitate to <br> get in touch!
+            </p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

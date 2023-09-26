@@ -1,0 +1,22 @@
+.main-button {
+    background: none;
+    border: none;
+    color: var(--clr-white);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+
+
+
+    border-radius: 30px;
+    background-color: var(--clr-orange);
+    padding: 15px;
+    transition: all ease 0.3s;
+}
+
+
+.main-button:hover {
+    color: var(--clr-orange);
+    background-color: var(--clr-white);
+}

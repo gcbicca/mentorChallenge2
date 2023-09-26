@@ -1,0 +1,29 @@
+.main-section__container {
+    width: 412px;
+    height: 416px;
+    border-radius: 30px;
+    background: var(--clr-black-gradient);
+
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: space-around;
+}
+
+.main-section__containerSecond {
+    width: 412px;
+    height: 416px;
+    border-radius: 30px;
+    background: var(--clr-black-gradient);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    justify-content: space-around;
+}
+
+.main-section__containerSecond img {
+    width: 180px;
+    height: 180px;
+}
